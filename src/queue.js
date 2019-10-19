@@ -15,7 +15,7 @@ class PriorityQueue {
 	}
 
 	shift() {
-		if(this.heap.root === null){alert('this.heap is empty');}
+		if(!this.heap.root){alert('this.heap is empty');}
 		else{
 			this.heap.pop();
 			this.sizeValue--;
